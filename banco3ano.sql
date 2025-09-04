@@ -111,3 +111,7 @@ create table responsavel(
 	endereco_id int(11),
 	pet_id int(11)
 );
+
+insert into pet(nome, idade, raca, porte, sexo, responsavel, id, perfil_id) values( "Crovinho", 76, "preto", "imenso", "Masculino", "Natanael", 2, 1 );
+
+insert into perfil(fotoUrl, id) values ("foto", 78);
