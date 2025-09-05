@@ -112,6 +112,40 @@ create table responsavel(
 	pet_id int(11)
 );
 
-insert into pet(nome, idade, raca, porte, sexo, responsavel, id, perfil_id) values( "Crovinho", 76, "preto", "imenso", "Masculino", "Natanael", 2, 1 );
+insert into pet( nome, idade, raca, porte, sexo, responsavel, id, perfil_id) values( "Crovinho", 76, "preto", "imenso", "Masculino", "Natanael", 2, 1 );
 
-insert into perfil(fotoUrl, id) values ("foto", 78);
+insert into perfil( fotoUrl, id) values ("foto", 123);
+
+select * from pet;
+
+insert into agenda( data, horainicio, horafim, disponivel, id) values("2025-09-04", "12:30:54", "13:45:32", "sim", 69);
+select * from agenda;
+
+insert into catalogo( item, descricao, id) values ("ração", "ração de 5kg para cachorro", 67);
+
+insert into consumivel( venda, estoque, id, estoque_id) values ("venda realizada", "Restam 5", 5, 8);
+
+insert into endereco( rua, bairro, numero, cep, complemento, id, loja_id) values ("General Osorio", "Parque São Paulo", "1289", "85803760", "casa", 678, 691 );
+
+insert into estetica( venda, agenda, id, agenda_id) values ("Venda não realizada", "disponivel", 45, 24);
+
+insert into estoque( valor_unitario, quantidade, id, remedio_id) values (23, "78", 12, 43);
+
+insert into login( user, passaword, id, login_id, responsavel_id) values ("Marcel Castanha", "Marceloilikok1523483089djwdv", 62, 426, 534 );
+
+insert into loja(nome, email, telefone, cnpj, endereco, id, pet_id, catalogo_id) values ("General Pet", "Nikao@gmail.com", 45999822579, 656562827, "General osorio 1527", 53, 234, 74  );
+
+select * from perfil; 
+select * from pet;
+
+
+
+
+
+
+
+
+
+
+
+
